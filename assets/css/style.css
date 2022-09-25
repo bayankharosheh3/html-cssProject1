@@ -102,8 +102,10 @@ nav{
     padding: 17px 20px;
     border-radius: 5%;
     text-transform: capitalize;
-    background-color: white;
+    /* background-color: white; */
     border: transparent 2px solid;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
     letter-spacing: 1px;
     box-shadow: 0px 5px 5px 0px hsl(230, 48%, 90%);
 }
@@ -114,7 +116,7 @@ nav{
    color: white;
 }
 
-.on-chrome:hover{
+.btn:hover{
     color: hsl(231, 69%, 60%);
     background-color: white;
     border: hsl(231, 69%, 60%) solid 2px;
@@ -123,6 +125,7 @@ nav{
 
 .on-firefox{
     color: hsl(225, 5%, 44%);
+    background-color: white;
 }
 
 .on-firefox:hover{
@@ -133,6 +136,7 @@ nav{
 
 
  .header-content{
+
  }
 
  .header-right img{
@@ -144,7 +148,7 @@ nav{
  }
 
 
- .shape{
+ .header-right .shape{
     position: absolute;
     width: 35%;
     height: 46%;
@@ -156,3 +160,125 @@ nav{
     border-bottom-left-radius: 35%;
  }
 
+
+ /* header section end */
+
+/* features section start */
+
+.features-sec .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130vh;
+}
+
+.features-description{
+    margin-top: 80px;
+}
+
+.sec-title{
+    padding: 20px;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: hsl(229, 31%, 21%);
+    text-align: center;
+}
+
+.sec-par{
+    padding: 10px 343px;
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+    line-height: 1.5;
+}
+
+.features-list ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.features-list li{
+    width: 272px;
+}
+.features-list a{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 0px;
+    width: 100%;
+    color: hsl(225, 5%, 44%);
+    border-bottom: 2px hsl(229, 18%, 88%) solid;
+
+}
+
+.features-list a:hover{
+    color: hsl(0, 94%, 66%);
+}
+
+.features-list a:focus{
+    color: hsl(229, 31%, 21%);
+    border-bottom: 4px hsl(0, 94%, 66%) solid;
+
+}
+
+.simple-content{
+    display: flex;
+}
+
+.simple-left{
+    width: 100%;
+}
+
+.simple-left img{
+    width: 100%;
+}
+
+.simple-left .shape{
+
+    position: absolute;
+    width: 44%;
+    height: 52%;
+    left: 0%;
+    bottom: -122%;
+    z-index: -1;
+    background-color: hsl(231, 69%, 60%);
+    border-top-right-radius: 35%;
+    border-bottom-right-radius: 30%;
+}
+
+
+.simple-right{
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+
+.simple-right h3{
+    padding: 60px 120px 30px 120px;
+    font-size: 34px;
+    color: hsl(229, 31%, 21%);
+}
+
+.simple-right p{
+
+    padding: 0 83px 0 120px;  
+    color: hsl(229, 8%, 60%);
+
+
+
+}
+.simple-right button{
+    margin: 30px 120px 30px 120px;
+
+}
+
+/* features section end */
+
+
+
+
+/* download section start */
+
+/* download section end */
