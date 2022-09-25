@@ -178,14 +178,14 @@ nav{
 
 .sec-title{
     padding: 20px;
-    font-size: 35px;
+    font-size: 33px;
     text-transform: capitalize;
     color: hsl(229, 31%, 21%);
     text-align: center;
 }
 
 .sec-par{
-    padding: 10px 343px;
+    padding: 10px 335px;
     text-align: center;
     color: hsl(229, 8%, 60%);
     line-height: 1.5;
@@ -280,5 +280,53 @@ nav{
 
 
 /* download section start */
+
+.download-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 5px 0px hsl(230, 48%, 90%);
+    border-radius: 5%;
+    margin:20px;
+    box-shadow: 0px 5px 5px 0px hsl(230, 48%, 90%);
+    height: 385px;
+
+}
+
+.card .img-icon{
+    margin: 28px 0;
+    width: 40%;
+    height: 110px;
+}
+
+.card h3{
+    margin: 0 0 10px 0;
+    color: hsl(229, 31%, 21%);
+}
+
+.card p{
+    margin: 0 0 35px 0;
+    font-size: 16px;
+    color:hsl(229, 8%, 60%);
+
+}
+
+.dot{
+    margin: 0 0 10px 0;
+    
+}
+
+.card2{
+    margin-top: 50px;
+}
+
+.card3{
+    margin-top: 90px;
+}
 
 /* download section end */
