@@ -95,11 +95,11 @@ nav{
 
 }
 
-.btn{
+.btn1{
     margin: 17px 15px 15px 0px;
     font-size: 13px;
     font-weight: 600;
-    padding: 17px 20px;
+    padding: 14px 20px;
     border-radius: 5%;
     text-transform: capitalize;
     /* background-color: white; */
@@ -116,11 +116,11 @@ nav{
    color: white;
 }
 
-.btn:hover{
+.btn1:hover{
     color: hsl(231, 69%, 60%);
     background-color: white;
     border: hsl(231, 69%, 60%) solid 2px;
- }
+}
 
 
 .on-firefox{
@@ -165,6 +165,7 @@ nav{
 
 /* features section start */
 
+
 .features-sec .container{
     display: flex;
     flex-direction: column;
@@ -201,7 +202,9 @@ nav{
 .features-list li{
     width: 272px;
 }
-.features-list a{
+.features-list button{
+    background-color: transparent;
+    border: transparent;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -212,13 +215,13 @@ nav{
 
 }
 
-.features-list a:hover{
+.features-list button:hover{
     color: hsl(0, 94%, 66%);
 }
 
-.features-list a:focus{
+.features-list button:focus{
     color: hsl(229, 31%, 21%);
-    border-bottom: 4px hsl(0, 94%, 66%) solid;
+    border-bottom: 3px hsl(0, 94%, 66%) solid;
 
 }
 
@@ -243,7 +246,7 @@ nav{
     bottom: -122%;
     z-index: -1;
     background-color: hsl(231, 69%, 60%);
-    border-top-right-radius: 35%;
+    border-top-right-radius: 100%;
     border-bottom-right-radius: 30%;
 }
 
@@ -256,7 +259,7 @@ nav{
 
 
 .simple-right h3{
-    padding: 60px 120px 30px 120px;
+    padding: 60px 0px 30px 120px;
     font-size: 34px;
     color: hsl(229, 31%, 21%);
 }
@@ -280,6 +283,10 @@ nav{
 
 
 /* download section start */
+
+.download-sec{
+    height: 100vh;
+}
 
 .download-cards{
     display: flex;
@@ -330,3 +337,149 @@ nav{
 }
 
 /* download section end */
+
+/*  */
+
+.question-sec .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.questions-content{
+    padding-bottom: 30px;
+}
+.questions-list{
+    width:45%;
+    margin: auto;
+}
+
+.accordion-item {
+    border: transparent 0px solid;
+    border-top: hsl(230, 48%, 90%) 1px solid;
+
+}
+
+.accordion-item:first-of-type .accordion-button{
+    border-radius: 0;
+}
+
+.accordion-button {
+    border-bottom: hsl(230, 48%, 90%) 1px solid;
+}
+
+.accordion-button:hover{
+    color: hsl(0, 94%, 66%);
+}
+.accordion-body{
+    color: hsl(229, 8%, 60%);
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.qestion-btn{
+
+    margin-top: 50px;
+    
+}
+/*  */
+
+/* email sec start */
+.email-sec{
+    margin-top: 120px;
+    padding: 60px 0px;
+    background-color: hsl(231, 69%, 60%);
+}
+
+.email-sec .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-sec p{
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 6px;
+}
+
+.email-sec h2{
+    color: white;
+    padding: 0 367px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.inter-email .btn2{
+    background-color: hsl(0, 94%, 66%);
+    box-shadow: 0px 0px 0px 0px transparent;
+    border: transparent solid .2px;
+
+
+}
+
+.inter-email .btn2:hover{
+
+    background-color: white;
+    color: hsl(0, 94%, 66%);
+    border: hsl(0, 94%, 66%) solid .2px;
+}
+
+
+.inter-email input{
+    margin-right: 10px;
+    padding: 14px 90px 14px 10px;
+    border-radius: 4%;
+    border: transparent;
+    color: hsl(229, 18%, 88%);
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.footer-logo{
+    color: white;
+}
+
+footer{
+    padding-top: 30px;
+    background-color: hsl(229, 31%, 21%);
+}
+
+footer .container{
+    display: flex;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+footer a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0px 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer-list a:hover{
+    color: hsl(0, 94%, 66%);
+
+}
+
+.contact-link{
+    display: flex;
+    width: 100%;
+    /* text-align: left; */
+    justify-content: flex-end;
+}
+
+/* email sec end */
